@@ -52,6 +52,8 @@ Suhash'uojama 100 000 porų, vienu simboliu besiskiriančių stringų. Gauti has
 | BlackDude22 | 0.0079 | 0 | 769 868 | 0 | 26 066 | 0 | 0.25 | 0.06 |
 | RytisGit | 0.05 | 0 | 271 501 | 0 | 3755 | 0.33 | 0.5 | 0.34 |
 | agnuss7 | 0.4 | 0 | 61 842 | 499 704 | 421 | 0 | 0.1 | 0.01 |
-| SimonasValkiunas | 1.38 | 40 948 | 12 418 | | | | | |
-| PauliusKu | | | | | | | | |
-| RaimundV | | | | | | | | |
+| SimonasValkiunas | 1.38 | 40 948 | 12 418 | 6463* | 135 | 0 | 0.09 | 0.03 |
+| PauliusKu | 0.0004 | 264 | 10 800 000 | 23 197 | 642 681 | 0.125 | 0.875 | 0.812 |
+| RaimundV | 0.0078 | 0 | 90 797 | 0 | 80 579 | 0.58 | 0.92 | 0.75 |
+
+* Testas nutrauktas po 200 000 string'ų, nes būtų trukęs 2h.
