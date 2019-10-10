@@ -21,7 +21,7 @@ Atliekami 4 testai skirti išbandyti įvarias hash funkcijų savybes.
 
 100 kartų suhash'uoja failą `konstitucija.txt`. Skaičiuoja visą ir vidutinį hash'avimo laiką. 
 
-`A1` - vidutinis hash'avimo laikas.<br>
+`A1` - vidutinis hash'avimo laikas (s).<br>
 
 ### B Greičio ir kolizijų testas su trumpais string'ais
 
@@ -47,3 +47,11 @@ Suhash'uojama 100 000 porų, vienu simboliu besiskiriančių stringų. Gauti has
 
 ## Rezultatai
 
+| Autorius | A1 | B1 | B2 | C1 | C2 | D1 | D2 | D3 |
+|----------|----|----|----|----|----|----|----|----|
+| BlackDude22 | 0.0079 | 0 | 769 868 | 0 | 26 066 | 0 | 0.25 | 0.06 |
+| RytisGit | 0.05 | 0 | 271 501 | 0 | 3755 | 0.33 | 0.5 | 0.34 |
+| agnuss7 | 0.4 | 0 | 61 842 | 499 704 | 421 | 0 | 0.1 | 0.01 |
+| SimonasValkiunas | 1.38 | 40 948 | 12 418 | | | | | |
+| PauliusKu | | | | | | | | |
+| RaimundV | | | | | | | | |
