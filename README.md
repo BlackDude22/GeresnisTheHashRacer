@@ -56,5 +56,6 @@ Suhash'uojama 100 000 porų, vienu simboliu besiskiriančių stringų. Gauti has
 | SimonasValkiunas | 1.38 | 40 948 | 12 418 | 6463* | 135 | 0 | 0.09 | 0.03 |
 | PauliusKu | 0.0004 | 264 | 10 800 000 | 23 197 | 642 681 | 0.125 | 0.875 | 0.812 |
 | RaimundV | 0.0078 | 0 | 90 797 | 0 | 80 579 | 0.58 | 0.92 | 0.75 |
-
+| Aspectrus | 0.17 | 0 | 125 309 | 0 | 1087* | 0 | 0.25 | 0.06 |
+ 
 * Testas nutrauktas po 200 000 string'ų, nes būtų trukęs 2h.
