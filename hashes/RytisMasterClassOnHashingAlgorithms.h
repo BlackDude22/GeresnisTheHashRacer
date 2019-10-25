@@ -11,6 +11,7 @@
 #include <cmath>
 #include <sstream>
 
+namespace Rytisgit{
 const int hashSize = 24;
 const int goodCharsLength = 64;
 auto goodChars = const_cast<char *>("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890+/");
@@ -104,5 +105,6 @@ double HashComparer(std::string string1, std::string string2){
         r += ((~b1)&(~b2)).count();
     }
     return (double)r/(hash1.size()*6);
+}
 }
 #endif //HASHING_RYTISMASTERCLASSONHASHINGALGORITHMS_H

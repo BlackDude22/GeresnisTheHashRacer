@@ -13,6 +13,10 @@
 #include "hashes/SimonasValkiunas.h"
 #include "hashes/PauliusKu.h"
 #include "hashes/RaimundV.h"
+#include "hashes/JonasSiuksteris.h"
+#include "hashes/Aspectrus.h"
+#include "hashes/myhash.hpp"
+
 std::string getHash(std::string input, std::string algorithm){
 	std::string result;
 	if (algorithm == "BlackDude22"){
@@ -21,7 +25,7 @@ std::string getHash(std::string input, std::string algorithm){
 	} else if (algorithm == "SHA256"){
 		result = picosha2::hash256_hex_string(input);
 	} else if (algorithm == "Rytisgit"){
-		result = hash(input);
+		result = Rytisgit::hash(input);
 	} else if (algorithm == "agnuss7"){
 		result = agnuss7::hash(input);
 	} else if (algorithm == "SimonasValkiunas"){
@@ -32,7 +36,13 @@ std::string getHash(std::string input, std::string algorithm){
 		result = PauliusKu::hashFunc(input);
 	} else if (algorithm == "RaimundV"){
 		result = RaimundV::stringToAscii(input);
-	} 
+	} else if (algorithm == "JonasSiuksteris"){
+		result = JonasSiuksteris::Hash(input);
+	} else if (algorithm == "Aspectrus"){
+		result = Aspectrus::inputhashing(input);
+	} else if (algorithm == "Daugis"){
+		result = myHash(input).getthisHash();
+	}
 	return result;
 }
 
